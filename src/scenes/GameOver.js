@@ -3,7 +3,6 @@ import Phaser from '../lib/phaser.js'
 export class GameOver extends Phaser.Scene {
   constructor() {
     super('game-over')
-    console.log('game over constructor')
   }
   preload() {
         this.load.image('background', 'assets/bg_layer1.png')
